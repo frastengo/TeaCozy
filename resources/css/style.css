@@ -5,7 +5,6 @@ body {
   background-color: black;
   opacity: 0.9;
   text-align: center;
-  margin: 0;
 }
 
 header img{
@@ -28,8 +27,6 @@ header {
   flex-wrap: wrap;
   align-items: center;
 }
-
-
 
 nav {
   text-align: right;
@@ -76,26 +73,23 @@ div.tea img {
   background-image: url(../images/img-locations-background.jpg);
 }
 
-.location {
+div.location {
   background-color: black;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  flex-wrap: nowrap;
   width: 300px;
   height: 300px;
   opacity: 1.0;
   margin: 15px 40px;
 }
 
-
-#locations .flex-box {
-  align-content: center;
-  width: 1200px;
+.flex-box-locations {
+  display: flex;
+  justify-content: center;
   flex-wrap: nowrap;
-  align-items: baseline;
-  margin: auto;
+  align-content: center;
+  align-items: center;
+
 }
+
 
 
 .contact {
